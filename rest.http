@@ -1,0 +1,13 @@
+GET http://localhost:3000/public Http/1.1
+
+###
+GET http://localhost:3000/private Http/1.1
+
+
+###
+POST http://localhost:3000/signup Http/1.1
+Content-Type:  application/json
+
+###
+POST http://localhost:3000/login Http/1.1
+Content-Type:  application/json
